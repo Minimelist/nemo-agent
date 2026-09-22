@@ -1,0 +1,10 @@
+AI agents are autonomous systems that perceive environments, make decisions, and execute tasks to achieve goals without constant human prompting. Unlike simple chatbots, they plan workflows, use tools (APIs, code, search), and iterate based on feedback.
+
+**How to use them:** Define a clear objective, provide necessary tools/access, and set guardrails. Deploy via frameworks like LangChain, CrewAI, or Autogen, or no-code platforms like Zapier Central.
+
+**Examples:**
+1.  **Research Agent:** Scans 50+ sources, synthesizes a report, and cites citations.
+2.  **Coding Agent:** Writes, tests, and debugs a full React feature from a Jira ticket.
+3.  **Support Agent:** Resolves Tier-1 tickets by querying knowledge bases and processing refunds via API.
+
+**Key Considerations:** As agents gain autonomy, robust evaluation becomes critical—implement observability (logging, tracing, evals) to catch hallucinations, tool misuse, or drift. Start with human-in-the-loop for high-stakes actions, gradually expanding autonomy as reliability metrics improve. Security guardrails (prompt injection defenses, least-privilege tool access) and cost controls (token budgets, step limits) should be baked in from day one, not bolted on later.

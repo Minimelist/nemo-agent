@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Test files
+memory.txt
+GC_logs.csv
+selfcreatedagent.py
+step1.py
+simpleagent.py
+pyproject.toml
+simpleagentwithtools.py
